@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="21594" started-at="2022-03-30T08:49:50Z" finished-at="2022-03-30T08:50:11Z">
+    <groups>
+      <group name="LoginCrud">
+        <method signature="EmployeeLogin.setDriver()[pri:0, instance:medicareTest.EmployeeLogin@7f690630]" name="setDriver" class="medicareTest.EmployeeLogin"/>
+        <method signature="EmployeeLogin.login()[pri:0, instance:medicareTest.EmployeeLogin@7f690630]" name="login" class="medicareTest.EmployeeLogin"/>
+      </group> <!-- LoginCrud -->
+    </groups>
+    <test name="Default test" duration-ms="21594" started-at="2022-03-30T08:49:50Z" finished-at="2022-03-30T08:50:11Z">
+      <class name="medicareTest.EmployeeLogin">
+        <test-method status="PASS" signature="setDriver()[pri:0, instance:medicareTest.EmployeeLogin@7f690630]" name="setDriver" duration-ms="17185" started-at="2022-03-30T14:19:50Z" finished-at="2022-03-30T14:20:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="login()[pri:0, instance:medicareTest.EmployeeLogin@7f690630]" name="login" duration-ms="4375" started-at="2022-03-30T14:20:07Z" depends-on-methods="medicareTest.EmployeeLogin.setDriver" finished-at="2022-03-30T14:20:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- medicareTest.EmployeeLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
